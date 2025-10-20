@@ -126,26 +126,34 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# CORS Settings
+# --- Production host settings ---
+# Add your exact Render URL plus wildcards for Render/Vercel previews
+ALLOWED_HOSTS = [
+    "localhost", "127.0.0.1",
+    "stepout-analytics.onrender.com",   # your Render service host
+    ".onrender.com",                    # any other Render host/previews
+    ".vercel.app",                      # Vercel (including previews)
+]
+
+# If you use cookie/session auth or CSRF:
+CSRF_TRUSTED_ORIGINS = [
+    "https://stepout-analytics.onrender.com",
+    "https://*.onrender.com",
+    "https://*.vercel.app",
+]
+
+# --- CORS ---
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  
-    "http://localhost:3000", 
-    "https://stepout-analytics.vercel.app"
+    "https://stepout-analytics.vercel.app",  # your main Vercel prod URL
+]
+# allow Vercel preview deployments too
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https:\/\/.*\.vercel\.app$",
 ]
 
-CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_CREDENTIALS = True  # only if you send cookies
 
-CORS_ALLOW_HEADERS = [
-    'accept',
-    'accept-encoding',
-    'authorization',
-    'content-type',
-    'dnt',
-    'origin',
-    'user-agent',
-    'x-csrftoken',
-    'x-requested-with',
-]
+
 
 # REST Framework settings
 REST_FRAMEWORK = {
