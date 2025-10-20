@@ -132,7 +132,8 @@ ALLOWED_HOSTS = [
     "localhost", "127.0.0.1",
     "stepout-analytics.onrender.com",   # your Render service host
     ".onrender.com",                    # any other Render host/previews
-    ".vercel.app",                      # Vercel (including previews)
+    ".vercel.app",     
+    "http://localhost:5173"                 # Vercel (including previews)
 ]
 
 # If you use cookie/session auth or CSRF:
@@ -144,7 +145,8 @@ CSRF_TRUSTED_ORIGINS = [
 
 # --- CORS ---
 CORS_ALLOWED_ORIGINS = [
-    "https://stepout-analytics.vercel.app",  # your main Vercel prod URL
+    "https://stepout-analytics.vercel.app",
+    "http://localhost:5173"
 ]
 # allow Vercel preview deployments too
 CORS_ALLOWED_ORIGIN_REGEXES = [
