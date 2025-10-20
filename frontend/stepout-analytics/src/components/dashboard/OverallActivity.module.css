@@ -1,0 +1,70 @@
+.overallActivity {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  width: 100%;
+  background: transparent;
+}
+
+.activityGroup {
+  background: white;
+  padding: 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-width: 0;
+  overflow: hidden;
+}
+
+.title {
+  background: linear-gradient(180deg, 
+    rgba(0, 211, 250, 0.15) 0%,     
+    rgba(255, 255, 255, 1) 100%      
+  );
+  color: #2A5F9E;  font-size: 10px;
+  font-weight: 800;
+  font-style: bold;
+  letter-spacing: 0.8px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  margin: 0;
+}
+
+.vizContainer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 16px;
+}
+.scaleVertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  height: 180px;
+}
+
+.scaleLabel {
+  color: #64748b;
+  font-size: 9px;
+  font-weight: 500;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.gradientVertical {
+  width: 8px;
+  flex: 1;
+  background: linear-gradient(to bottom, #fbbf24, #10b981, #1e3a8a);
+  border-radius: 4px;
+}
+
+@media (max-width: 1200px) {
+  .overallActivity {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

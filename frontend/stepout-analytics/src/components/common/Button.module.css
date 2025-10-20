@@ -1,0 +1,38 @@
+.button {
+  padding: var(--spacing-md) var(--spacing-xl);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+}
+
+.primary {
+  background: var(--accent-blue);
+  color: var(--text-white);
+}
+
+.primary:hover:not(.disabled) {
+  background: #2A5F9E;
+  transform: translateY(-1px);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--accent-blue);
+}
+
+
+.fullWidth {
+  width: 100%;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

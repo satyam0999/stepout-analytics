@@ -1,0 +1,330 @@
+{
+  "player": {
+    "id": 2,
+    "name": "James Rodriguez",
+    "position": "Forward",
+    "gameTime": 720,
+    "profileImage": null
+  },
+  "circleStats": {
+    "passing": { "current": 78, "total": 100 },
+    "dribbling": { "current": 88, "total": 100 },
+    "shooting": { "current": 92, "total": 100 },
+    "defending": { "current": 45, "total": 100 },
+    "physical": { "current": 75, "total": 100 }
+  },
+  "summary": {
+    "assistsCompleted": 8,
+    "chancesCreated": 35,
+    "playedGameTime": 720,
+    "goalScored": 15,
+    "attemptsOnTarget": 68,
+    "dribblesCompleted": 89,
+    "tacklesWon": 23,
+    "passesCompletedInFinalThird": 98,
+    "possessionsLost": 112,
+    "possessionsRetained": 198,
+    "duelWinRate": 58.2,
+    "interceptions": 18
+  },
+  "matchHistory": [
+    { "id": 1, "opponent": "Team Zeta", "gameTime": 90 },
+    { "id": 2, "opponent": "Team Eta", "gameTime": 75 },
+    { "id": 3, "opponent": "Team Theta", "gameTime": 90 },
+    { "id": 4, "opponent": "Team Iota", "gameTime": 65 },
+    { "id": 5, "opponent": "Team Kappa", "gameTime": 90 }
+  ],
+  "overallActivity": {
+    "passing": {
+      "heatmapData": [
+        [0, 0, 0, 1, 2, 1, 0, 0, 0, 0],
+        [0, 0, 1, 3, 4, 3, 1, 0, 0, 0],
+        [0, 1, 2, 4, 6, 4, 2, 1, 0, 0],
+        [0, 2, 3, 5, 7, 5, 3, 2, 0, 0],
+        [0, 2, 3, 5, 7, 5, 3, 2, 0, 0],
+        [0, 1, 2, 4, 6, 4, 2, 1, 0, 0],
+        [0, 0, 1, 3, 4, 3, 1, 0, 0, 0],
+        [0, 0, 0, 1, 2, 1, 0, 0, 0, 0]
+      ],
+      "vectorData": [
+        { "x": 200, "y": 200, "direction": 30, "intensity": 0.9 },
+        { "x": 250, "y": 180, "direction": 60, "intensity": 0.8 },
+        { "x": 300, "y": 200, "direction": 90, "intensity": 0.7 }
+      ]
+    },
+    "shooting": {
+      "heatmapData": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 2, 3, 2, 0, 0, 0, 0],
+        [0, 0, 1, 3, 5, 3, 1, 0, 0, 0],
+        [0, 0, 1, 3, 5, 3, 1, 0, 0, 0],
+        [0, 0, 0, 2, 3, 2, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "vectorData": [
+        { "x": 360, "y": 180, "direction": 5, "intensity": 0.95 },
+        { "x": 390, "y": 170, "direction": 20, "intensity": 0.9 },
+        { "x": 375, "y": 190, "direction": 350, "intensity": 0.85 }
+      ]
+    },
+    "defending": {
+      "heatmapData": [
+        [0, 0, 1, 1, 1, 0, 0, 0, 0, 0],
+        [0, 1, 2, 2, 2, 1, 0, 0, 0, 0],
+        [1, 2, 3, 3, 3, 2, 1, 0, 0, 0],
+        [1, 2, 3, 3, 3, 2, 1, 0, 0, 0],
+        [1, 2, 3, 3, 3, 2, 1, 0, 0, 0],
+        [1, 2, 3, 3, 3, 2, 1, 0, 0, 0],
+        [0, 1, 2, 2, 2, 1, 0, 0, 0, 0],
+        [0, 0, 1, 1, 1, 0, 0, 0, 0, 0]
+      ],
+      "vectorData": [
+        { "x": 200, "y": 200, "direction": 190, "intensity": 0.4 },
+        { "x": 180, "y": 180, "direction": 210, "intensity": 0.3 },
+        { "x": 220, "y": 220, "direction": 170, "intensity": 0.5 }
+      ]
+    }
+  },
+  "passingStats": {
+    "shortPass": {
+      "activity": [
+        [0, 1, 2, 3, 3, 2, 1, 0, 0, 0],
+        [1, 2, 3, 4, 4, 3, 2, 1, 0, 0],
+        [1, 3, 4, 5, 5, 4, 3, 1, 0, 0],
+        [1, 3, 4, 5, 5, 4, 3, 1, 0, 0],
+        [1, 3, 4, 5, 5, 4, 3, 1, 0, 0],
+        [1, 3, 4, 5, 5, 4, 3, 1, 0, 0],
+        [1, 2, 3, 4, 4, 3, 2, 1, 0, 0],
+        [0, 1, 2, 3, 3, 2, 1, 0, 0, 0]
+      ],
+      "vector": [
+        { "x": 200, "y": 200, "direction": 30, "intensity": 0.8 },
+        { "x": 250, "y": 200, "direction": 60, "intensity": 0.9 },
+        { "x": 300, "y": 200, "direction": 90, "intensity": 0.7 }
+      ],
+      "distribution": {
+        "leftThird": 20,
+        "centerThird": 45,
+        "rightThird": 35
+      }
+    },
+    "longPass": {
+      "activity": [
+        [0, 0, 0, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 1, 2, 2, 1, 0, 0, 0, 0],
+        [0, 1, 2, 3, 3, 2, 1, 0, 0, 0],
+        [0, 1, 2, 3, 3, 2, 1, 0, 0, 0],
+        [0, 1, 2, 3, 3, 2, 1, 0, 0, 0],
+        [0, 1, 2, 3, 3, 2, 1, 0, 0, 0],
+        [0, 0, 1, 2, 2, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 0, 0, 0, 0, 0]
+      ],
+      "vector": [
+        { "x": 200, "y": 200, "direction": 45, "intensity": 0.85 },
+        { "x": 250, "y": 150, "direction": 75, "intensity": 0.75 }
+      ],
+      "distribution": {
+        "leftThird": 25,
+        "centerThird": 35,
+        "rightThird": 40
+      }
+    },
+    "throughBall": {
+      "activity": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 2, 2, 0, 0, 0, 0, 0],
+        [0, 0, 1, 3, 3, 1, 0, 0, 0, 0],
+        [0, 1, 2, 4, 4, 2, 1, 0, 0, 0],
+        [0, 1, 2, 4, 4, 2, 1, 0, 0, 0],
+        [0, 0, 1, 3, 3, 1, 0, 0, 0, 0],
+        [0, 0, 0, 2, 2, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "vector": [
+        { "x": 300, "y": 200, "direction": 10, "intensity": 0.9 },
+        { "x": 320, "y": 200, "direction": 25, "intensity": 0.8 }
+      ],
+      "distribution": {
+        "leftThird": 15,
+        "centerThird": 70,
+        "rightThird": 15
+      }
+    },
+    "cross": {
+      "activity": [
+        [0, 0, 0, 0, 0, 0, 2, 3, 3, 2],
+        [0, 0, 0, 0, 2, 2, 3, 4, 4, 3],
+        [0, 0, 0, 1, 3, 3, 4, 5, 5, 4],
+        [0, 0, 1, 2, 3, 4, 4, 5, 5, 4],
+        [0, 0, 1, 2, 3, 4, 4, 5, 5, 4],
+        [0, 0, 0, 1, 3, 3, 4, 5, 5, 4],
+        [0, 0, 0, 0, 2, 2, 3, 4, 4, 3],
+        [0, 0, 0, 0, 0, 0, 2, 3, 3, 2]
+      ],
+      "vector": [
+        { "x": 450, "y": 150, "direction": 300, "intensity": 0.8 },
+        { "x": 450, "y": 250, "direction": 60, "intensity": 0.8 }
+      ],
+      "distribution": {
+        "leftThird": 5,
+        "centerThird": 25,
+        "rightThird": 70
+      }
+    }
+  },
+  "defendingStats": {
+    "standingTackle": {
+      "activity": [
+        [0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 3, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 3, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 3, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 3, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 2, 2, 1, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+      ],
+      "vector": [
+        { "x": 180, "y": 200, "direction": 200, "intensity": 0.5 },
+        { "x": 200, "y": 180, "direction": 220, "intensity": 0.4 }
+      ],
+      "distribution": {
+        "leftThird": 40,
+        "centerThird": 40,
+        "rightThird": 20
+      }
+    },
+    "slidingTackle": {
+      "activity": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 2, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "vector": [
+        { "x": 150, "y": 200, "direction": 180, "intensity": 0.4 },
+        { "x": 170, "y": 220, "direction": 200, "intensity": 0.3 }
+      ],
+      "distribution": {
+        "leftThird": 50,
+        "centerThird": 35,
+        "rightThird": 15
+      }
+    },
+    "interception": {
+      "activity": [
+        [0, 1, 2, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 3, 3, 2, 1, 0, 0, 0, 0],
+        [1, 2, 4, 3, 2, 1, 0, 0, 0, 0],
+        [1, 2, 4, 3, 2, 1, 0, 0, 0, 0],
+        [1, 2, 4, 3, 2, 1, 0, 0, 0, 0],
+        [1, 2, 4, 3, 2, 1, 0, 0, 0, 0],
+        [1, 2, 3, 3, 2, 1, 0, 0, 0, 0],
+        [0, 1, 2, 2, 1, 0, 0, 0, 0, 0]
+      ],
+      "vector": [
+        { "x": 200, "y": 200, "direction": 170, "intensity": 0.6 },
+        { "x": 220, "y": 180, "direction": 190, "intensity": 0.5 }
+      ],
+      "distribution": {
+        "leftThird": 35,
+        "centerThird": 45,
+        "rightThird": 20
+      }
+    },
+    "clearance": {
+      "activity": [
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+        [1, 2, 2, 1, 0, 0, 0, 0, 0, 0],
+        [1, 2, 3, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 3, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 3, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 3, 2, 1, 0, 0, 0, 0, 0],
+        [1, 2, 2, 1, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "vector": [
+        { "x": 120, "y": 200, "direction": 190, "intensity": 0.7 },
+        { "x": 140, "y": 180, "direction": 210, "intensity": 0.6 }
+      ],
+      "distribution": {
+        "leftThird": 45,
+        "centerThird": 35,
+        "rightThird": 20
+      }
+    }
+  },
+  "shootingStats": {
+    "closeShot": {
+      "activity": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 2, 2, 0, 0, 0, 0],
+        [0, 0, 0, 1, 3, 3, 1, 0, 0, 0],
+        [0, 0, 0, 1, 3, 3, 1, 0, 0, 0],
+        [0, 0, 0, 0, 2, 2, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "vector": [
+        { "x": 400, "y": 180, "direction": 5, "intensity": 0.98 },
+        { "x": 390, "y": 200, "direction": 10, "intensity": 0.95 }
+      ],
+      "distribution": {
+        "leftThird": 10,
+        "centerThird": 80,
+        "rightThird": 10
+      }
+    },
+    "longShot": {
+      "activity": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 2, 2, 2, 0, 0, 0, 0],
+        [0, 0, 1, 3, 4, 3, 1, 0, 0, 0],
+        [0, 1, 2, 4, 5, 4, 2, 1, 0, 0],
+        [0, 1, 2, 4, 5, 4, 2, 1, 0, 0],
+        [0, 0, 1, 3, 4, 3, 1, 0, 0, 0],
+        [0, 0, 0, 2, 2, 2, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "vector": [
+        { "x": 320, "y": 200, "direction": 5, "intensity": 0.9 },
+        { "x": 300, "y": 190, "direction": 15, "intensity": 0.85 },
+        { "x": 310, "y": 210, "direction": 355, "intensity": 0.8 }
+      ],
+      "distribution": {
+        "leftThird": 20,
+        "centerThird": 60,
+        "rightThird": 20
+      }
+    }
+  },
+  "attributeSummary": {
+    "passing": {
+      "shortPass": 98,
+      "longPass": 67,
+      "throughBall": 45,
+      "cross": 78
+    },
+    "shooting": {
+      "closeShot": 35,
+      "longShot": 68
+    },
+    "defending": {
+      "standingTackle": 23,
+      "slidingTackle": 15,
+      "interception": 18,
+      "clearance": 12
+    },
+    "specialActions": {
+      "handBall": 1,
+      "offSide": 12
+    }
+  }
+}

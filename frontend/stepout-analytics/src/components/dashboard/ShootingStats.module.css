@@ -1,0 +1,115 @@
+.shootingStatsButton{
+  display: flex;
+  margin: 24px 0;
+  padding: 0px;
+}
+
+.button {
+  background: #2A5F9E;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+}
+
+.button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.vizCard {
+  background: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  min-height: 240px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.vizTitle {
+  background: linear-gradient(180deg, 
+    rgba(0, 211, 250, 0.15) 0%,     
+    rgba(255, 255, 255, 1) 100%      
+  );
+  color: #2A5F9E;  font-size: 9px;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 10px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 6px 8px;
+  border-radius: 4px;
+  width: 100%;
+  line-height: 1.2;
+}
+
+@media (max-width: 1400px) {
+  .statsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .vizCard {
+    border-right: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .vizCard:nth-child(3n) {
+    border-right: none;
+  }
+  
+  .vizCard:nth-last-child(-n+3) {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .vizCard:nth-child(3n) {
+    border-right: 1px solid #e2e8f0;
+  }
+  
+  .vizCard:nth-child(2n) {
+    border-right: none;
+  }
+  
+  .vizCard:nth-last-child(-n+2) {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .vizCard {
+    border-right: none;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .vizCard:last-child {
+    border-bottom: none;
+  }
+}

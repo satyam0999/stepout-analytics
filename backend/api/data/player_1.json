@@ -1,0 +1,330 @@
+{
+  "player": {
+    "id": 1,
+    "name": "Marcus Silva",
+    "position": "Midfielder",
+    "gameTime": 850,
+    "profileImage": null
+  },
+  "circleStats": {
+    "passing": { "current": 85, "total": 100 },
+    "dribbling": { "current": 72, "total": 100 },
+    "shooting": { "current": 68, "total": 100 },
+    "defending": { "current": 78, "total": 100 },
+    "physical": { "current": 82, "total": 100 }
+  },
+  "summary": {
+    "assistsCompleted": 12,
+    "chancesCreated": 28,
+    "playedGameTime": 850,
+    "goalScored": 8,
+    "attemptsOnTarget": 45,
+    "dribblesCompleted": 67,
+    "tacklesWon": 52,
+    "passesCompletedInFinalThird": 156,
+    "possessionsLost": 89,
+    "possessionsRetained": 234,
+    "duelWinRate": 62.5,
+    "interceptions": 34
+  },
+  "matchHistory": [
+    { "id": 1, "opponent": "Team Alpha", "gameTime": 90 },
+    { "id": 2, "opponent": "Team Beta", "gameTime": 85 },
+    { "id": 3, "opponent": "Team Gamma", "gameTime": 78 },
+    { "id": 4, "opponent": "Team Delta", "gameTime": 90 },
+    { "id": 5, "opponent": "Team Epsilon", "gameTime": 82 }
+  ],
+  "overallActivity": {
+    "passing": {
+      "heatmapData": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vectorData": [
+        { "x": 100, "y": 150, "direction": 45, "intensity": 0.8 },
+        { "x": 200, "y": 150, "direction": 90, "intensity": 0.6 },
+        { "x": 300, "y": 150, "direction": 135, "intensity": 0.7 }
+      ]
+    },
+    "shooting": {
+      "heatmapData": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vectorData": [
+        { "x": 350, "y": 150, "direction": 0, "intensity": 0.9 },
+        { "x": 380, "y": 140, "direction": 15, "intensity": 0.7 },
+        { "x": 370, "y": 160, "direction": 345, "intensity": 0.8 }
+      ]
+    },
+    "defending": {
+      "heatmapData": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vectorData": [
+        { "x": 150, "y": 150, "direction": 180, "intensity": 0.6 },
+        { "x": 120, "y": 120, "direction": 200, "intensity": 0.5 },
+        { "x": 180, "y": 180, "direction": 160, "intensity": 0.7 }
+      ]
+    }
+  },
+  "passingStats": {
+    "shortPass": {
+      "activity": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vector": [
+        { "x": 150, "y": 150, "direction": 45, "intensity": 0.7 },
+        { "x": 200, "y": 150, "direction": 90, "intensity": 0.8 },
+        { "x": 250, "y": 150, "direction": 135, "intensity": 0.6 }
+      ],
+      "distribution": {
+        "leftThird": 25,
+        "centerThird": 50,
+        "rightThird": 25
+      }
+    },
+    "longPass": {
+      "activity": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vector": [
+        { "x": 150, "y": 150, "direction": 30, "intensity": 0.9 },
+        { "x": 200, "y": 100, "direction": 60, "intensity": 0.8 }
+      ],
+      "distribution": {
+        "leftThird": 30,
+        "centerThird": 40,
+        "rightThird": 30
+      }
+    },
+    "throughBall": {
+      "activity": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vector": [
+        { "x": 250, "y": 150, "direction": 0, "intensity": 0.85 },
+        { "x": 280, "y": 150, "direction": 15, "intensity": 0.75 }
+      ],
+      "distribution": {
+        "leftThird": 20,
+        "centerThird": 60,
+        "rightThird": 20
+      }
+    },
+    "cross": {
+      "activity": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vector": [
+        { "x": 400, "y": 100, "direction": 315, "intensity": 0.7 },
+        { "x": 400, "y": 200, "direction": 45, "intensity": 0.7 }
+      ],
+      "distribution": {
+        "leftThird": 10,
+        "centerThird": 30,
+        "rightThird": 60
+      }
+    }
+  },
+  "defendingStats": {
+    "standingTackle": {
+      "activity": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vector": [
+        { "x": 120, "y": 150, "direction": 180, "intensity": 0.8 },
+        { "x": 150, "y": 120, "direction": 200, "intensity": 0.6 }
+      ],
+      "distribution": {
+        "leftThird": 50,
+        "centerThird": 35,
+        "rightThird": 15
+      }
+    },
+    "slidingTackle": {
+      "activity": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vector": [
+        { "x": 100, "y": 150, "direction": 170, "intensity": 0.75 },
+        { "x": 130, "y": 180, "direction": 190, "intensity": 0.65 }
+      ],
+      "distribution": {
+        "leftThird": 60,
+        "centerThird": 30,
+        "rightThird": 10
+      }
+    },
+    "interception": {
+      "activity": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vector": [
+        { "x": 150, "y": 150, "direction": 160, "intensity": 0.7 },
+        { "x": 180, "y": 120, "direction": 180, "intensity": 0.8 }
+      ],
+      "distribution": {
+        "leftThird": 45,
+        "centerThird": 40,
+        "rightThird": 15
+      }
+    },
+    "clearance": {
+      "activity": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vector": [
+        { "x": 80, "y": 150, "direction": 180, "intensity": 0.9 },
+        { "x": 100, "y": 100, "direction": 200, "intensity": 0.85 }
+      ],
+      "distribution": {
+        "leftThird": 55,
+        "centerThird": 30,
+        "rightThird": 15
+      }
+    }
+  },
+  "shootingStats": {
+    "closeShot": {
+      "activity": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vector": [
+        { "x": 380, "y": 140, "direction": 0, "intensity": 0.95 },
+        { "x": 370, "y": 160, "direction": 5, "intensity": 0.9 }
+      ],
+      "distribution": {
+        "leftThird": 15,
+        "centerThird": 70,
+        "rightThird": 15
+      }
+    },
+    "longShot": {
+      "activity": [
+        [0, 2,  0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 1,  0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 12, 0, 0, 0, 0, 2, 0, 0],
+        [0, 0, 12, 0, 0, 1, 0, 3, 1, 0],
+        [0, 0,  7, 8, 0, 0, 0, 3, 1, 0],
+        [0, 6,  0, 0, 0, 0, 2, 2, 0, 0],
+        [0, 0, 11, 0, 0, 0, 0, 1, 0, 0],
+        [0, 12, 0, 0, 0, 0, 0, 0, 1, 0]
+      ],
+      "vector": [
+        { "x": 300, "y": 150, "direction": 0, "intensity": 0.85 },
+        { "x": 280, "y": 140, "direction": 10, "intensity": 0.8 },
+        { "x": 290, "y": 160, "direction": 350, "intensity": 0.75 }
+      ],
+      "distribution": {
+        "leftThird": 25,
+        "centerThird": 50,
+        "rightThird": 25
+      }
+    }
+  },
+  "attributeSummary": {
+    "passing": {
+      "shortPass": 145,
+      "longPass": 89,
+      "throughBall": 34,
+      "cross": 56
+    },
+    "shooting": {
+      "closeShot": 23,
+      "longShot": 45
+    },
+    "defending": {
+      "standingTackle": 67,
+      "slidingTackle": 45,
+      "interception": 34,
+      "clearance": 28
+    },
+    "specialActions": {
+      "handBall": 2,
+      "offSide": 8
+    }
+  }
+}

@@ -1,0 +1,121 @@
+.playerHeader {
+  background: linear-gradient(135deg, #2255A4 0%, #0E304A 100%);
+  padding: 34px 48px 80px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.playerInfo {
+  display: flex;
+  gap: 0;
+  align-items: flex-start;
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #06B6D4;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: white;
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.profileImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 250px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.metaItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; 
+}
+
+.labelRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.iconImg{
+  height: 20px;
+  width: 20px
+}
+
+.label {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.value {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 2rem;
+}
+
+.statsCircles {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-right: 20px;
+}
+
+@media (max-width: 1200px) {
+  .playerHeader {
+    flex-direction: column;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .profileImage {
+    position: static;
+  }
+  
+  .details {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+}

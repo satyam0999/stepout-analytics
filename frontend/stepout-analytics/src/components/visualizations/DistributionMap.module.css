@@ -1,0 +1,54 @@
+.distributionMapContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.distributionMap {
+  display: block;
+  flex-shrink: 0;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.legendItem {
+  display: block;
+  align-items: center;
+  margin-bottom: 4px;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+  white-space: nowrap;
+}
+
+.legendColorFinal,
+.legendColorMiddle,
+.legendColorDefensive {
+  width: 8px;
+  height: 8px;
+  border-radius: 3px;
+  flex-shrink: 0;
+  margin-left: 6px;
+}
+
+.legendNames{
+  font-size: xx-small;
+}
+
+.legendColorFinal {
+  background-color: #ff6b9d;
+}
+
+.legendColorMiddle {
+  background-color: #fbbf24;
+}
+
+.legendColorDefensive {
+  background-color: #fb923c;
+}

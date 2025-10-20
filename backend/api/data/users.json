@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Marcus Silva",
+    "email": "player1@stepout.com",
+    "password": "stepout123",
+    "playerId": 1
+  },
+  {
+    "id": 2,
+    "name": "James Rodriguez",
+    "email": "player2@stepout.com",
+    "password": "stepout123",
+    "playerId": 2
+  },
+  {
+    "id": 3,
+    "name": "Alex Thompson",
+    "email": "player3@stepout.com",
+    "password": "stepout123",
+    "playerId": 3
+  }
+]

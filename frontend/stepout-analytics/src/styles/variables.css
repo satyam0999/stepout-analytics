@@ -1,0 +1,64 @@
+/* src/styles/variables.css */
+:root {
+  /* Primary Colors */
+  --primary-blue: #1E3A8A;
+  --primary-blue-dark: #1e293b;
+  --accent-blue: #3B82F6;
+  --bg-dark-navy: #0F172A;
+  --bg-card: #1E293B;
+  
+  /* Text Colors */
+  --text-white: #FFFFFF;
+  --text-light: #F1F5F9;
+  --text-gray: #94A3B8;
+  
+  /* Status Colors */
+  --success-green: #10B981;
+  --warning-yellow: #FBBF24;
+  --error-red: #EF4444;
+  --orange: #FB923C;
+  
+  /* Stat Circle Colors */
+  --stat-passing: #8B5CF6;
+  --stat-dribbling: #3B82F6;
+  --stat-shooting: #06B6D4;
+  --stat-defending: #FBBF24;
+  --stat-physical: #FB923C;
+  
+  /* Heatmap Colors */
+  --heat-low: #1E3A8A;
+  --heat-medium: #3B82F6;
+  --heat-high: #10B981;
+  --heat-max: #FBBF24;
+  
+  /* Distribution Colors */
+  --dist-left: #EF4444;
+  --dist-center: #FBBF24;
+  --dist-right: #FB923C;
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+  
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-xs: 10px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 32px;
+
+  --title-gradient: linear-gradient(180deg, #00D3FA 0%, #FFFFFF 100%);
+}
